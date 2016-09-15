@@ -1,0 +1,83 @@
+h1{
+	font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #f6f707;
+	font-size: 80px
+
+}
+
+h2{
+	font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 20px;
+}
+
+
+
+
+h3{font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 20px
+	 }
+
+
+
+body {
+	background-color:#48b369;
+	text-align:center;
+	align-items:center;
+	background-attachment: fixed;
+	padding: 20px;
+}
+
+p{font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 30px 
+}
+
+
+
+#chart1{width: 500px;
+	height: 400px;
+	margin:auto;
+}
+
+#chart2 
+{width: 1000px;
+height:200px;
+margin:auto;
+}
+
+#chart3 {width: 500px;
+	height: 400px;
+	margin:auto;
+}
+
+
+/*Ålder textfärg*/
+
+
+.ct-chart-bar .ct-label
+{color: white;
+font-family: "Lucida Console", 'Palatino Linotype', serif;
+}
+
+
+/* Ålder */
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: #f6f707
+
+
+
+}
+/* lilla pajen */
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie {
+    fill: #FFF8DC;
+}
+
+/* stora pajen*/
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+    fill: #red;
+
+
+
+}
