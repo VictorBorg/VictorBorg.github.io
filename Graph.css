@@ -1,0 +1,194 @@
+
+h1{text-align:center;
+  font-family: "Lucida Console", 'Palatino Linotype', serif;
+ color:#f6f707;
+ text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+
+/*h2{
+	font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 20px;
+}
+*/
+
+h3{font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 20px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+	 }
+
+
+
+body {
+	background-color:#48b369;
+	text-align:center;
+	align-items:center;
+	background-attachment: fixed;
+	padding: 20px;
+	font-family: tahoma;
+
+}
+
+
+
+.page-content
+{color:white;
+font-family:"Lucida Console", 'Palatino Linotype', serif;
+font-size: 80px ;
+}
+
+.page-content2
+{color:white;
+font-family:"Lucida Console", 'Palatino Linotype', serif;
+font-size: 80px}
+
+p{font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 30px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+li {font-family: "Lucida Console", 'Palatino Linotype', serif;
+    color: #ffffff;
+	font-size: 30px }
+
+
+
+#chart1{width: 500px;
+	height: 400px;
+	margin:auto;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+#chart2 
+{width: 1000px;
+height:200px;
+margin: auto;
+text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+#chart3 
+{width: 500px;
+height: 400px;
+margin: auto;
+text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+
+/*Ålder textfärg*/
+
+
+.ct-chart-bar .ct-label
+{color: white;
+font-family: "Lucida Console", 'Palatino Linotype', serif;
+}
+
+
+/* Ålder */
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: #f6f707
+}
+/* lilla pajen */
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie {
+    fill: #FFF8DC;
+ 
+}
+
+/*Text i pajjerna och ålder staplarna*/
+.ct-label
+{font-size:18px;
+fill:black;
+font-family:"Lucida Console", 'Palatino Linotype', serif;
+}
+
+/* stora pajen*/
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+    fill: #red;
+}
+
+.page-content
+{fill: yellow;}
+
+.sektion{
+	display:inline-block;
+	width:50%
+	text-align:center;
+	
+
+	}
+
+.sektion2{
+	display:inline-block;
+	width:50%
+	text-align:center;
+	margin-left:70px;
+	}
+
+
+/*count down*/
+
+h2{
+  color: #e50000;
+  text-align: center;
+  font-size: 63px;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+#del-countdown{
+  width: 850px;
+  margin: 15% auto;
+}
+
+#clock span{
+  float: left;
+  text-align: center;
+  font-size: 63px;
+  margin: 0 2.5%;
+  color: #fff;
+  padding: 20px;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+#clock span:nth-child(1){
+  background: #e50000;
+}
+#clock span:nth-child(2){
+  background: #e50000;
+}
+#clock span:nth-child(3){
+  background: #e50000;
+}
+#clock span:nth-child(4){
+  background: #e50000;
+}
+
+#clock:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+span.turn{
+  animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+  0%{transform: rotateX(0deg)}
+  100%{transform: rotateX(360deg)}
+}
